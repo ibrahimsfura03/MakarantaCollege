@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student</title>
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../bootstrap/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../bootstrap/css/animate.min.css">
+  <link rel="stylesheet" href="../bootstrap/student.css">
+</head>
+<body>
+  
+  
+<!-- ---------------------------------------MAIN BODY----------------------------------------- -->
+
+<div class="header fixed-top py-2 shadow">
+    <nav class="navbar navbar-expand-md fixed-top"></nav>
+    <div class="clearfix">
+    <div class=" float-start">
+      <img src="../assets/profiles/userlogo.png" width="30" alt="" class="img img-fluid rounded-circle thumbnail mx-3">
+      <spna class="bi bi-bell-fill text-bold text-light mx-1">3</spna>
+      <spna class="bi bi-door-open-fill text-bold text-light mx-1"></spna>
+    </div>
+      <div class="float-end mx-2">
+        <form action="" class="justify-content-around">
+          <div class="input-group">
+          <input type="search" class="form-control-sm">
+          <button class="btn btn-sm btn-dark"><span class="bi bi-search"></span></button>
+        </div>
+        </form>
+      </div>
+      </div>
+  </nav>
+</div>
+
+
+    <div class="bg-dark sideNav">
+      <!-- side nav header -->
+
+
+      <ul class="list-group pt-5 list-group-flush">
+        <a href="index.html" class="">
+        <li class="navList py-3">
+         <span class="bi bi-database"></span> Dashboard
+        </li>
+        </a>
+        <a href="payments.html" class="">
+        <li class="navList py-3">
+         <span class="bi bi-bank"></span> Payments
+        </li>
+        </a>
+        <a href="subjects.html" class="">
+        <li class="navList py-3">
+         <span class="bi bi-book-half"></span> Subjects
+        </li>
+        </a>
+        <a href="scores.html" class="">
+        <li class="navList py-3">
+         <span class="bi bi-clock"></span> Scores
+        </li>
+        </a>
+        <a href="scores.html" class="">
+        <li class="navList py-3">
+         <span class="bi bi-files"></span> Results
+        </li>
+        </a>
+        <a href="settings.html" class="">
+        <li class="navList py-3">
+         <span class="bi bi-gear"></span> Settings
+        </li>
+        </a>
+      </ul>
+    </div>
+
+      <!-- end of side nav header -->
+
+      <!-- **************************************************NAVBAR RESPONSIVE********************************** -->
+
+      <nav class="navbar navabr-expand-md fixed-top responsiveNavbar shadow">
+        <div class="navabar-brand">
+          <img src="../assets/profiles/userlogo.png" width="30" alt="" class="img img-fluid rounded-circle thumbnail ms-3">
+          <spna class="text-bold text-light me-3">ibrahim</spna>
+          <spna class="bi bi-bell-fill text-bold text-light mx-1">3</spna>
+          <spna class="bi bi-door-open-fill text-bold text-light mx-1"></spna>
+        </div>
+
+        <button class="navabr-toggler btn btn-noColor" data-bs-target="#myNav" data-bs-toggle="collapse" type="button">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-around" id="myNav">
+          <ul class="navabr-nav text-center">
+          <a href="index.html" class="">
+        <li class="navList py-3">
+         <span class="bi bi-database"></span> Dashboard
+        </li>
+        </a>
+        <a href="payments.html" class="">
+        <li class="navList py-3">
+         <span class="bi bi-bank"></span> Payments
+        </li>
+        </a>
+        <a href="subjects.html" class="">
+        <li class="navList py-3">
+         <span class="bi bi-book-half"></span> Subjects
+        </li>
+        </a>
+        <a href="scores.html" class="">
+        <li class="navList py-3">
+         <span class="bi bi-clock"></span> Scores
+        </li>
+        </a>
+        <a href="scores.html" class="">
+        <li class="navList py-3">
+         <span class="bi bi-files"></span> Results
+        </li>
+        </a>
+        <a href="settings.html" class="">
+        <li class="navList py-3">
+         <span class="bi bi-gear"></span> Settings
+        </li>
+        </a>
+          </ul>
+        </div>
+
+      </nav>
+      
+      <!-- *********************************************END OF NAVBAR RESPONSIVE********************************** -->
+
+
+      <!-- side nav main -->
+       <div class="sideNavFooter fixed-bottom text-light">
+        <li class="py-n2 " style="list-style-type: none;">Logged in as:</li>
+        <li class="text-bold " style="list-style-type: none;">Student</li>
+       </div>
+      <!-- end of side nav main -->
+<!-- -------------------------------------------MAIN MAIN-------------------------------------- -->
+    <div class="main">
+
+      <!-- =========================CARDS=================== -->
+
+<div class="container-fluid mt-3">
+  <div class="alert alert-warning">
+    <span class="bi bi-fire"></span>
+    Payment is acceptable only via <a href="#">remita</a>
+  </div>
+
+   <hr class="mb-5">
+ 
+   <div class="card border-0">
+     
+         <div class="clearfix">
+          <form action="" class="float-start">
+           <div class="input-group">
+             <input type="search" class="form-control-sm" id="search" placeholder="Payment Id">
+             <button class="btn btn-sm btn-primary"><span class="bi bi-search"></span></button>
+           </div>
+         </form>
+
+         <div class="float-end">
+            <a href="generate_invoice.html">
+              <button class="btn btn-block btn-primary">Generate Invoice</button>
+            </a>
+         </div>
+         </div>
+
+    <div class="card-header">
+      <span class="bi bi-bank"></span>
+      All transactions
+    </div>
+
+      <div class="table-responsive">
+      <table class="table borderd">
+        <thead class="thead">
+          <tr>
+            <td>SN</td>
+            <td>PURPOSE</td>
+            <td>PAYMENT ID</td>
+            <td>RRR</td>
+            <td>STATUS</td>
+            <td>DATE</td>
+            <td>Invoices</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="col">
+            <td>1</td>
+            <td>School fees</td>
+            <td>#731yd721</td>
+            <td>78776387878776</td>
+            <td><span class="badge bg-warning text-dark">Pending</span></td>
+            <td>12-34-23</td>
+            <td><a href="#">View</a></td>
+          </tr>
+        </tbody>
+    </table>
+   </div>
+   </div>
+  
+      
+      <!-- =========================END OF CARDS=================== -->
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+<!-- ---------------------------------------END OF MAIN MAIN-------------------------------------- -->
+
+
+
+<!-- -------------------------------------END OF MAIN BODY------------------------------------ -->
+
+
+
+
+  <!-- -----------------------------------End FOOTER-------------------------------------- -->
+
+
+  <!-- <script src="../bootstrap/js/all.js"></script> -->
+  <script src="../bootstrap/js/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+  <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/demo/chart-area-demo.js"></script>
+  <script src="../assets/demo/chart-bar-demo.js"></script>
+  <script src="../assets/demo/datatables-demo.js"></script>
+  <script src="../assets/demo/chart-pie-demo.js"></script>
+  <!-- <script src="../bootstrap/js/bootstrap.js"></script> -->
+</body>
+</html>

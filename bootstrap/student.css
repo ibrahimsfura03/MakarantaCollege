@@ -1,0 +1,117 @@
+/* *{
+    border: 1px solid red;
+} */
+
+
+.header{
+    background-color: rgb(65, 74, 170);
+}
+
+.myBg{
+    background-color: rgb(65, 74, 170);
+}
+.myBg:hover{
+    background-color: rgb(79, 88, 187);
+}
+
+.sideNav{
+    width: 15%;
+    height: 90%;
+    padding: 0%;
+    margin-top: 3%;
+    position: fixed;
+    float: left;
+}
+.sideNavFooter{
+    width: 15%;
+    height: 10%;
+    padding: 0%;
+    margin-top: 41.5%;
+    position: fixed;
+    float: left;
+
+}
+
+.main{
+    width: 85%;
+    float: right;
+    margin-top: 50px;
+}
+
+
+.list-group{
+    margin: 0% 0% 40% 7%;
+}
+
+.navList{
+    list-style-type: none;
+    font-size: 17px;
+    color: rgb(164, 164, 164);
+}
+
+.navList:hover{
+    color: rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none;
+}
+
+.sideNavFooter{
+    background-color: rgb(67, 66, 66);
+    padding: 0.75rem;
+  flex-shrink: 0;
+}
+.responsiveNavbar{
+    visibility: hidden;
+}
+
+thead{
+    background-color: #ffffff;
+}
+
+.biodata{
+    margin: 0;
+}
+.book_thumb{
+    height: 250px!important;
+}
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------RESPONSIVES--------------------------------------------- */
+
+@media (max-width: 850px) {
+    .sideNav{
+        visibility: hidden;
+        /* display: none; */
+    }
+    .sideNavFooter{
+        /* visibility: hidden; */
+        display: none;
+    }
+    .header{
+        /* visibility: hidden; */
+        display: none;
+    }
+    .main{
+        width: 100%;
+        margin-top: 50px;
+        position: inherit;
+    }
+    .responsiveNavbar{
+        visibility: visible;
+        background-color: rgb(65, 74, 170);
+        width: 100%;
+              
+    }
+
+}
+

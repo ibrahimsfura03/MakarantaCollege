@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+/* *{
+    border: 1px solid red;
+} */
+
+
+.carousel-item{
+    height: 100vh;
+}
+
+.services{
+    width: 77.5%;
+    margin-top: -100px;
+    /* z-index: 99; */
+    position: relative;
+}
+
+/* .myCourses:hover{
+    box-sizing: border-box;
+} */
+
+.achievmentsCounter{
+    background-image: url(../assets/bg/bg7.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    margin: 90px 0px;
+}
+
+
+.teacherInfo:hover{
+    visibility: visible;
+    transition: width 2s, height 4s;
+    box-shadow: 0 4px 8px 0 rgba(183, 183, 183, 0.2), 0 6px 20px 0 rgba(166, 166, 166, 0.19);
+}
+
+.welcomeCards:hover{
+    box-shadow: 0 4px 8px 0 rgba(183, 183, 183, 0.2), 0 6px 20px 0 rgba(166, 166, 166, 0.19);
+  transition: width 2s;
+}
+
+.myCourses:hover{
+    box-shadow: 0 4px 8px 0 rgba(183, 183, 183, 0.2), 0 6px 20px 0 rgba(166, 166, 166, 0.19);
+}
+
+
+.upCommingBackground{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../assets/bg/bg1.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh;
+}
+
+
+.upCommingContent:hover{
+    background-color: rgb(35, 43, 125)!important;
+}
+
+
+
+
+/* ------------------------------------------RESPONSIVES--------------------------------- */
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+.achievmentsCounter{
+    background-image: url(../assets/bg/bg7.jpg);
+    background-repeat: no-repeat;
+    height: 970px;
+    margin: 90px 0px;
+}
+}
+
+
+
+@media (max-width: 992px) {
+ .whyUsContent{
+    justify-content: center;
+ }
+ .whyUsContentText{
+    text-align: center;
+ }
+ .upCommingBackground{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../assets/bg/bg1.jpg);
+    height: 1200px;
+}
+
+}
+
+@media (max-width: 576px) {
+ .upCommingBackground{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../assets/bg/bg1.jpg);
+    height: 3200px;
+}
+}
+
+@media (max-width: 520px) {
+ .upCommingBackground{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../assets/bg/bg1.jpg);
+    height: 3000px;
+}
+}
+@media (max-width: 490px) {
+ .upCommingBackground{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../assets/bg/bg1.jpg);
+    height: 2700px;
+}
+}
+
+    @media (max-width: 1044px) {
+    .carousel-pic{
+        height: 100%;
+    }
+    .carousel-item{
+        height: 700px;
+    }
+
+
+
+
+}
